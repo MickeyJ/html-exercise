@@ -1,0 +1,63 @@
+li{
+  list-style: none;
+}
+
+ol li:nth-child(odd){
+ font-weight: bold;
+}
+
+ol li:nth-child(even){
+ font-style: italic;
+}
+
+ul span{
+  display: inline;
+}
+
+audio{
+  display: block;
+}
+
+video{
+  clear: both;
+  display: block;
+  width: 750px;
+  margin: 0 auto;
+}
+
+header{
+  float: left;
+}
+
+nav{
+  float: right;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav li a{
+  text-decoration: none;
+  color: blue;
+}
+nav li a:active, nav li a:visited{
+  color: green;
+}
+nav li a:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+#all-wrap{
+  max-width: 1400px;
+  margin: 0 auto;
+  border: 1px dashed black;
+}
+
+#main-wrap{
+  background: rgba(255, 255, 255, 0.37);
+  clear: both;
+  width: 80%;
+  margin: 0 auto;
+}
